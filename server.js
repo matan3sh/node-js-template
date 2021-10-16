@@ -4,8 +4,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 const app = express();
 
-const test = true;
-
 // App Middlewares
 app.use(express.json());
 
